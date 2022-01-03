@@ -1,0 +1,59 @@
+.adminContainer{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+ align-items: center;
+ background-color: #008080;
+
+}
+.email{
+    position: absolute;
+    margin-left:-18%;
+    margin-top: -0.4%;
+    color: #fff;
+}
+.addBtn{
+    display: flex;
+    position: absolute;
+    margin-left: 86%;
+    top: 85px;
+  
+}
+.registerBtn{
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.logoutBtn{
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    margin-left:-30%;
+}
+.userTable{
+    display: block;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;  
+    position: absolute;
+    top:20%;
+}
+.table{
+    display: block;
+}
